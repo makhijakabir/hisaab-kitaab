@@ -293,36 +293,36 @@
                         activity_id: "C001",
                         name: 'Advanced communications',
                         regarding: 'Presentation',
-                        owner: 'John',
-                        creation_date: '12-09-2019'
+                        owner: 'Maira',
+                        creation_date: '12-09-2020'
                     },
                     {
                         activity_id: "C002",
                         name: 'New drug discussion',
                         regarding: 'Meeting',
-                        owner: 'John',
-                        creation_date: '09-02-2019'
+                        owner: 'Maira',
+                        creation_date: '09-02-2020'
                     },
                     {
                         activity_id: "C003",
                         name: 'Universal services discussion',
                         regarding: 'Meeting',
-                        owner: 'John',
-                        creation_date: '03-25-2019'
+                        owner: 'Sahana',
+                        creation_date: '03-25-2020'
                     },
                     {
                         activity_id: "C004",
                         name: 'Add on business',
                         regarding: 'Business',
-                        owner: 'John',
-                        creation_date: '03-18-2019'
+                        owner: 'Sonal',
+                        creation_date: '03-18-2020'
                     },
                     {
                         activity_id: "C005",
                         name: 'Promotional Activity',
                         regarding: 'Personal',
-                        owner: 'John',
-                        creation_date: '04-09-2019'
+                        owner: 'Aashna',
+                        creation_date: '04-09-2020'
                     },
                 ],
                 pagination: {
@@ -348,10 +348,10 @@
                     dataset: {
                         dimensions: ['time_period', 'sale', 'goal'],
                         source: [
-                            {time_period: 'Jan 2019', sale: 50, goal: 70},
-                            {time_period: 'Feb 2019', sale: 80, goal: 75},
-                            {time_period: 'Mar 2019', sale: 86, goal: 80},
-                            {time_period: 'Apr 2019', sale: 72, goal: 85}
+                            {time_period: 'Jan 2020', sale: 50, goal: 70},
+                            {time_period: 'Feb 2020', sale: 80, goal: 75},
+                            {time_period: 'Mar 2020', sale: 86, goal: 80},
+                            {time_period: 'Apr 2020', sale: 72, goal: 85}
                         ]
                     },
                     xAxis: {
@@ -533,7 +533,7 @@
                     yAxis: [
                         {
                             type: 'category',
-                            data: ['Alex Morrow', 'Joanna Carter', 'Jimmy Joanna', 'Mack Hales'],
+                            data: ['Nora Mallick', 'Rohini Vashishtha', 'Aashna Kumar', 'Ishika Gupta'],
                             axisLabel: {
                                 fontSize: 12,
                                 color: this.$q.dark.isActive ? 'white' : '#676767'

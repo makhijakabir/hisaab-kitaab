@@ -221,7 +221,7 @@
                 </q-item-section>
 
                 <q-item-section>
-                  Enganements
+                  Engagements
                 </q-item-section>
               </q-item>
 
