@@ -41,7 +41,7 @@
       class="left-navigation text-white"
       show-if-above
       v-model="left"
-      style="background-image: url(https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-2.32103624.jpg) !important;"
+      style="background-image: url(https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80) !important;"
       side="left"
       elevated
     >
@@ -295,8 +295,8 @@ export default {
 
 <style>
 .q-drawer {
-  /*background-image: url(https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-2.32103624.jpg) !important;*/
-  background-image: url("/statics/images/lake.jpg") !important;
+  /* background-image: url(https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-2.32103624.jpg) !important; */
+  background-image: url("https://images.unsplash.com/photo-1504432842672-1a79f78e4084?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdGl2YXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") !important;
   background-size: cover !important;
 }
 
@@ -305,7 +305,7 @@ export default {
 }
 
 .drawer_dark {
-  background-color: #010101f2;
+  background-color: #000000;
 }
 
 .navigation-item {
@@ -313,22 +313,22 @@ export default {
 }
 
 .tab-active {
-  background-color: green;
+  background-color: black;
 }
 
 body {
-  background: #f1f1f1 !important;
+  background: #ffffff !important;
 }
 
 .header_normal {
   background: linear-gradient(
     145deg,
-    rgb(32, 106, 80) 15%,
-    rgb(21, 57, 102) 70%
+    #000000 15%,
+    #3d3d3d 70%
   );
 }
 
 .header_dark {
-  background: linear-gradient(145deg, rgb(61, 14, 42) 15%, rgb(14, 43, 78) 70%);
+  background: linear-gradient(145deg, #000000 15%, #3d3d3d 70%);
 }
 </style>

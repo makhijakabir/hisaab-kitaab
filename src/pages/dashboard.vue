@@ -604,14 +604,14 @@
 
 <style scoped>
   .blue_dark {
-    background-color: #082f56;
+    background-color: #3d3d3d;
   }
 
   .green_dark {
-    background-color: #084a0b;
+    background-color: #3d3d3d;
   }
 
   .orange_dark {
-    background-color: #64350e;
+    background-color: #3d3d3d;
   }
 </style>
